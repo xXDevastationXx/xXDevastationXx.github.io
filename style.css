@@ -2,13 +2,13 @@
   
 }
 
-.topNavBar {
+.topnav {
   background-color: #635D5C;
   opacity: 0.6;
   overflow: hidden;
 }
 
-.topNavBar a {
+.topnav a {
   float: right;
   display: block;
   color: #f2f2f2;
@@ -18,12 +18,12 @@
   font-size: 17px;
 }
 
-.topNavBar a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topNavBar a:active {
+.topnav a:active {
   background-color: #4CAF50;
   color: white;
 }
