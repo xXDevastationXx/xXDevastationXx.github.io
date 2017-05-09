@@ -19,5 +19,11 @@
 }
 
 .topNavBar a:hover {
-  
+  background-color: #ddd;
+  color: black;
+}
+
+.topNavBar a:active {
+  background-color: #4CAF50;
+  color: white;
 }
