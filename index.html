@@ -1,13 +1,27 @@
-<!DOCTYPE html>
+<DOCTYPE HTML>
 <html>
-<head>
-	<title> Jacob's Website </title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<script type="text/javascript" src="script.js">
-	</script>
-</head>
-<body>
-
-
+  <head>
+    <title>php Server Test</title>
+    <link href="style.css" type="stylesheet">
+  </head>
+  <body>
+  
+  <!-- Form -->
+  <form action="info.php" method="post">
+    <div class="infoBox">
+        NAME
+      <input type="text" name="First Name"><br>
+        EMAIL
+      <input type="text" name="E-Mail"><br>
+        ID
+      <input type="text" name="ID"><br>
+    </div>
+    Gender : 
+    <div class="genderButton">
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+    </div>
+  <input type="submit">
+  </form>
 </body>
 </html>
