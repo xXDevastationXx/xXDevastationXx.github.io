@@ -13,8 +13,8 @@
 .topnav {
   background-color: #1C1A1A;
   overflow: hidden;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .topnav a {
