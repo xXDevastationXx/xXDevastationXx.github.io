@@ -1,5 +1,16 @@
+#header {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.title {
+  font-size: 20px;
+  float: left;
+  display: block;
+}
+
 .topnav {
-  background-color: #000000;
+  background-color: #1C1A1A;
   overflow: hidden;
 }
 
@@ -8,7 +19,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding-bottom: 14px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
