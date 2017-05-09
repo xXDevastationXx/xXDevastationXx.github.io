@@ -1,1 +1,23 @@
+#header {
+  
+}
 
+.topNavBar {
+  background-color: #635D5C;
+  opacity: 0.6;
+  overflow: hidden;
+}
+
+.topNavBar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNavBar a:hover {
+  
+}
