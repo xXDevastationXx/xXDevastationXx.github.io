@@ -1,5 +1,14 @@
-.Heading {
+#head {
   Font-Family: 'Roboto' , sans-Serif;
-  
+  color: #FFF;
+  background-color: #110e0e;
+}
 
+h1 {
+  float: left;
+  
+}
+
+h2 {
+  float: left;
 }
