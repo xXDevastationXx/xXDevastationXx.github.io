@@ -1,7 +1,7 @@
 #head {
   Font-Family: 'Roboto' , sans-Serif;
-  color: #FFF;
-  background-color: #110e0e;
+  background-color: black;
+  width: 100%;
 }
 
 h1 {
@@ -11,4 +11,24 @@ h1 {
 
 h2 {
   float: left;
+}
+
+.navBar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navBar a {
+  display: block;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  color: #FFF;
 }
