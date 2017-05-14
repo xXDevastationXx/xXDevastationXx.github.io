@@ -18,11 +18,12 @@ h2 {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #C0C0C0;
 }
 
 .navBar a {
   display: block;
-  color: white;
+  color: black;
   float: left;
   text-align: center;
   padding: 14px 16px;
@@ -30,5 +31,5 @@ h2 {
 }
 
 .navBar a:hover {
-  color: #FFF;
+  color: white;
 }
