@@ -5,7 +5,20 @@
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>  
-  <marquee>Testing The Scrolly Text</marquee>
-  <p>Scrolling Test up there ^</p>
+  <script>
+    passWord="HYabn6x"
+    GRANTEDSITE="http://www.camden.k12.ga.us/"
+    DENIEDSITE="https://www.google.com/"
+    
+    pwd = prompt("Please Enter Password:","");
+    if(pwd==passWord) {
+      alert('Correct!\nAccess Granted');
+      location.href = GRANTEDSITE;
+    } else {
+      alert('Incorrect!\nAccess Denied');
+      location.href = DENIEDSITE;
+    }
+    
+  </script>
 </body>
 </html>
