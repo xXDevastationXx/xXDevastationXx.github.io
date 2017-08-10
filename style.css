@@ -1,3 +1,8 @@
-h2 {
-  color: blue;
-}
+  .content {
+  -moz-column-count: 3;
+  -webkit-column-count: 3; 
+  column-count: 3;
+  -moz-column-gap: 30px;
+  -webkit-column-gap: 30px;
+  column-gap: 30px;
+  }
