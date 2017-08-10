@@ -1,12 +1,5 @@
-  .content {
-  -moz-column-width: 500px;
-  -webkit-column-width: 500px;
-  column-width: 500px;
-  -moz-column-gap: 30px;
-  -webkit-column-gap: 30px;
-  column-gap: 30px;
-  }
-
-  .content div {
-  display: inline-block;
-  }
+.Content {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
