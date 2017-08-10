@@ -1,9 +1,12 @@
   .content {
-  column-count: 3;
+  -moz-column-width: 500px;
+  -webkit-column-width: 500px;
+  column-width: 500px;
+  -moz-column-gap: 30px;
+  -webkit-column-gap: 30px;
   column-gap: 30px;
   }
 
- .content div {
+  .content div {
   display: inline-block;
   }
-  
